@@ -4,8 +4,8 @@ import '../styles/Header.css'
 const Header = () => {
     return(
         <header>
-            <h1>Quizy</h1>
-            <p>Simple ReactJS Quiz Game</p>
+            <h1>Trivia Quiz</h1>
+            <p>ReactJS Quiz Game</p>
         </header>
     )
 }
