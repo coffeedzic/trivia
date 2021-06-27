@@ -17,8 +17,7 @@ Trivia Quiz created with ReactJS
 
 `npm start`
 
-App uses simple PHP api for sending and getting results from database
-Use the included .sql file, set up database in 'classes/database.class.php' & set path to your api in 'src/components/Trivia.js'
+App uses simple PHP api for sending and getting results from database. Use the included .sql file, set up database in 'classes/database.class.php' & set path to your api in 'src/components/Trivia.js'
 
 ## Trivia API
 
