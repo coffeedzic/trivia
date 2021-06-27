@@ -1,0 +1,38 @@
+footer {
+    margin: 32px 0;
+    color: var(--color);
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer a {
+    color: var(--color);
+}
+
+footer a:hover {
+    color: var(--color);
+}
+
+footer .icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .icons a {
+    padding: 8px;
+}
+
+footer p {
+    margin-top: 4px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,32 @@
+.start-game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.start-game .input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.start-game .input input {
+    width: 65%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    -webkit-appearance: none;
+    color: var(--input);
+    border: 1px solid var(--input-border);
+    background: var(--bg);
+}
+
+.start-game .input button {
+    width: 30%;
+}

@@ -1,0 +1,46 @@
+.rankings {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.rankings .row {
+    display: flex;
+    width: 100%;
+    column-gap: 2%;
+    margin: 8px 0;
+}
+
+.rankings .head {
+    margin-bottom: 8px;
+}
+
+.rankings span {
+    width: 23%;
+}
+
+.rankings .heading {
+    font-weight: 600;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.pagination span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg);
+    background-color: var(--primary);
+    border-radius: 2px;
+    cursor: pointer;
+}

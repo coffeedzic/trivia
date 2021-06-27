@@ -1,0 +1,20 @@
+.end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end img {
+    width: 120px;
+}
+
+.end .score {
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+.end button {
+    margin-top: 32px;
+}
